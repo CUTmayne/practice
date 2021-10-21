@@ -1,7 +1,7 @@
 # practice
-An archive of practice problems found on leetcode and my solutions to them.
+An archive of practice problems to demonstrate that I am not completely incompetent.
 
-The idea is to use different programming languages in order for me to gain a better understanding of them. From a purely practical standpoint, using a language such as Python 3 would be better. However, as this is an educational endeavor, efficiency is not my highest priority. 
+In light of the fact that I have not posted anything in over a year, let this be a sign of new trends and more productive habits.
 
 To anyone watching this repository,
 Cheers!
