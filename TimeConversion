@@ -1,0 +1,23 @@
+def timeConversion(s):
+    # Write your code here
+    swap = 0
+    #determine whether the hour is 12 or other
+    if s[0] == "1" and s[1] == "2":
+        #determine whether AM or PM
+        if s[8] == "P":
+            #no alteration of string           
+        else:
+            #convert 12AM to 1
+            s[0] = "0"
+            s[1] = "1"
+    #hours not equal to 12
+    else:
+        #add 12 to the hour if PM and not 12
+        if s[8] == "P":
+            swap = int(s[0])+1
+            s[0] = swap
+            swap = int(s[1])+2
+            s[1] = swap
+    #delete AM/PM from end of string
+    del s[8]
+    del s[9]
