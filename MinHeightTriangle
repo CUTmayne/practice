@@ -1,0 +1,10 @@
+/*Triangle base and area given. Create a method for finding the minimum height*/
+
+int lowestTriangle(int trianglebase, int area) {
+    if(2*area % trianglebase == 0){
+        return (2*area)/trianglebase;
+    }
+    else{
+        return ((2*area)/trianglebase) + 1;
+    }
+}
